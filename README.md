@@ -1,6 +1,6 @@
 # Eigeneyes
 
-Code accompanying the paper *Eigeneyes: A statistical model of whole-eye geometry and its applications* (Vadillo, de la Peña, Rodríguez-Sánchez, de Castro, Marcos and Martínez-Enríquez).
+Code accompanying the paper *Eigeneyes: a statistical model of ocular geometry and its applications* (Vadillo, de la Peña, Rodríguez-Sánchez, de Castro, Marcos and Martínez-Enríquez).
 
 MATLAB code to build a statistical shape model of the whole eye ("eigeneyes") from ocular biometry surfaces using principal component analysis (SVD), and to evaluate it with subject-grouped 10 × 10 cross-validation.
 
