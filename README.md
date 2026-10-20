@@ -62,7 +62,9 @@ Written to `Results/`:
 
 
 ## Figures
-Figure6_rmse_models_comparison.csv contains the mean RMSE, standard deviation across eyes (SD_eyes), and standard deviation across cross-validation folds (SD_folds) for the 8-PAR, 16-PAR, Eigeneyes (4, 8, and 12 components), and independent surface PCA models (4, 8, and 12 components). Results are reported for each ocular surface (AC, PC, AL, PL) and globally, in micrometers (µm).
+* `Figure6_rmse_models_comparison.csv` contains the mean RMSE, standard deviation across eyes (SD_eyes), and standard deviation across cross-validation folds (SD_folds) for the 8-PAR, 16-PAR, Eigeneyes (4, 8, and 12 components), and independent surface PCA models (4, 8, and 12 components). Results are reported for each ocular surface (AC, PC, AL, PL) and globally, in micrometers (µm).
+
+* `Figure7_synthetic_eyes.csv` contains synthetic eyes generated using the Eigeneyes model for different combinations of age (30, 55, and 80 years) and axial length (AL = 22, 24, and 26 mm), including their corresponding biometric parameters.
 
 
 ## License
