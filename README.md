@@ -19,6 +19,8 @@ Code/
     └── eigeneyes_SVD_cartesian.m      # SVD / eigeneye computation
 Data/                                  # input dataset (not included)
 Results/                               # outputs are written here
+Figures/                               # data to generate paper Figures
+
 ```
 
 ## Inputs
@@ -57,6 +59,11 @@ Written to `Results/`:
 | `Eigeneyes_10x10_CV.mat` | Full cross-validation results (per repetition, fold, K and eye) |
 | `Eigeneyes_10x10_CV_results.csv` | Summary table: RMSE (mm) and PVar (%) mean ± SD for K = 1–10 |
 | `Eigeneyes_10x10_CV_RMSE_PVAR.png` | RMSE and PVar versus number of eigeneyes |
+
+
+## Figures
+Figure6_rmse_models_comparison.csv contains the mean RMSE, standard deviation across eyes (SD_eyes), and standard deviation across cross-validation folds (SD_folds) for the 8-PAR, 16-PAR, Eigeneyes (4, 8, and 12 components), and independent surface PCA models (4, 8, and 12 components). Results are reported for each ocular surface (AC, PC, AL, PL) and globally, in micrometers (µm).
+
 
 ## License
 
